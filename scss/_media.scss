@@ -1,0 +1,119 @@
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .wrapper {
+        &__circle {
+            transform: translateX(-40%);
+        }
+        &__pills img {
+            width: 100%;
+        }
+        &__block {
+            padding: 38px 20px 47px;
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 0;
+    }
+    .wrapper {
+        padding: 60px 0 59px;
+        &__inner {
+            box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.1);
+        }
+        &__circle {
+            display: none;
+        }
+        &__items {
+            padding: 0 20px;
+            box-shadow: none;
+        }
+        &__block {
+            padding: 38px 20px;
+            background: #fff;
+            box-shadow: none;
+            p {
+                color: #212121;
+                margin: 0;
+            }
+        }
+        &__position {
+            position: absolute;
+            top: 38px;
+            right: 20px;
+        }
+        &__pills {
+            margin: 0 auto;
+            max-width: 100%;
+            height: 0px;
+            padding-bottom: 100%;
+            img {
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-23%);
+            }
+        }
+        &__title {
+            background: #fff;
+        }
+        &__main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            width: 100%;
+            background: #f8f8f8;
+            color: #212121;
+        }
+        &__lock {
+            padding: 0 20px;
+        }
+        &__form {
+            padding-bottom: 28px;
+        }
+    }
+}
+@media screen and (max-width: 350px) {
+    .wrapper {
+        &__form {
+            padding-top: 28px;
+        }
+        &__title {
+            padding: 0;
+            br {
+                display: none;
+            }
+        }
+        &__wrap input {
+            width: 174px;
+        }
+        &__pills {
+            max-width: 202px;
+            height: 202px;
+            padding-bottom: 0;
+            img {
+                width: 223px;
+                height: 122px;
+                transform: translateY(-50%);
+            }
+        }
+        #select,
+        .dd-select,
+        .dd-container,
+        .dd-options {
+            max-width: 96px;
+        }
+        .dd-selected {
+            padding-left: 10px;
+            padding-right: 5px;
+            &::after {
+                right: 10px;
+            }
+        }
+    }
+}

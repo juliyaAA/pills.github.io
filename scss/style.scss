@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+}
+h1,
+h2 {
+    padding: 0;
+    margin: 0;
+}
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #fff;
+    background: #e5e5e5;
+}
+.container {
+    position: relative;
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 80px;
+    margin: 0 auto;
+}
+
+@import 'wrapper';
+@import 'media';
